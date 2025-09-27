@@ -3,6 +3,7 @@ import SignPicker from './components/SignPicker.jsx'
 import HoroscopeCard from './components/HoroscopeCard.jsx'
 import { getHoroscopeBySign } from './utils/zodiac.js'
 
+import './App.css'
 export default function App() {
   const [sign, setSign] = useState(null)
 
