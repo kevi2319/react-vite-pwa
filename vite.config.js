@@ -16,10 +16,13 @@ export default defineConfig({
       includeAssets: ["/android", "/ios", "/windows11"],
 
       manifest: {
-        name: "PWA REACT AND VITE",
-        short_name: "PWA REACT",
-        description: "React and Vite app + PWA",
-        theme_color: "#ffffff",
+        name: "Calculadora de Resistencias",
+        short_name: "ResCalc",
+        description:
+          "PWA desarrollada en React y Vite que calcula el valor de una resistencia de 4 bandas según el código de colores.",
+        theme_color: "#0A74DA",
+        background_color: "#ffffff",
+        start_url: "/",
         display_override: [
           "fullscreen",
           "minimal-ui",
